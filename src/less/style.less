@@ -1,0 +1,29 @@
+@import "bootstrap/less/bootstrap.less";
+
+@icon-font-path: './fonts/';
+
+body {
+  background: url("media/wallpaper.jpg") no-repeat scroll center top / cover darken(@brand-primary, 10%);
+}
+
+h1 {
+	color: white;
+}
+
+#moreOptions {
+  label {
+    .make-sm-column(6);
+  }
+  
+  label+div {
+    .make-sm-column(6);
+  }
+}
+
+.help-block {
+  font-style: italic;
+}
+
+#controlContainer {
+  cursor: help;
+}
